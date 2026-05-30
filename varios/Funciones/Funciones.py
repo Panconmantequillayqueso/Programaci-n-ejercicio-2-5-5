@@ -1,6 +1,5 @@
-# Funciones
-# Para evitar tanta repetición usamos funciones
-
+#Funciones
+#Tienen que estar en la misma carpeta 
 def sumarDosNumeros(): 
     '''Esta función permite sumar dos números
         ingresados dentro de la función.
@@ -16,6 +15,3 @@ def sumar (a,b) :
     '''Esta función permite sumar dos números ingresados por parámetros'''
     suma = a + b 
     return suma
-
-# Las funciones pueden ser con o sin parametros, con o sin retorno
-
