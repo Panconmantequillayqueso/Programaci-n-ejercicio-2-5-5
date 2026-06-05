@@ -14,9 +14,12 @@ def agregar():
 def mostrar():
     '''Imprime la lista de productos en el inventario'''
 
-    print("Listado de productos:")
-    for nombre in productos:
-        print(f"Nombre: {nombre}. Stock: {productos[nombre][0]}. Precio: {productos[nombre][1]}")
+    if len(productos) == 0:
+        print("No hay productos")
+    else:
+        print("Listado de productos:")
+        for nombre in productos:
+            print(f"Nombre: {nombre}. Stock: {productos[nombre][0]}. Precio: {productos[nombre][1]}")
 
 def buscar():
     '''Busca el nombre de un producto en el inventario'''
