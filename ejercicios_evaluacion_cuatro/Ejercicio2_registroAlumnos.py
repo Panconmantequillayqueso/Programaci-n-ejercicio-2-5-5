@@ -22,7 +22,8 @@ def agregar_alumnos():
         else:
             break
 
-    
+def mostrar_alumnos():
+    '''
 
 
 while True:
